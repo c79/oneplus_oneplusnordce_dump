@@ -1,0 +1,17 @@
+<permissions>
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- Surendra.Lodhi 2020/12/22 add permission for Omacp sdk-->
+    <privapp-permissions package="com.mediatek.omacp">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED" />
+        <permission name="android.permission.VIBRATE" />
+        <permission name="android.permission.ACCESS_NETWORK_STATE" />
+        <permission name="android.permission.READ_PHONE_STATE" />
+        <permission name="android.permission.WAKE_LOCK" />
+        <permission name="android.permission.RECEIVE_WAP_PUSH" />
+        <permission name="android.permission.RECEIVE_SMS" />
+        <permission name="android.permission.FOREGROUND_SERVICE" />
+    </privapp-permissions>
+    <!--#endif /* VENDOR_EDIT */-->
+
+</permissions>

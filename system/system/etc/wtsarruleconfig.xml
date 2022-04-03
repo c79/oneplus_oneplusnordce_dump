@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SarRuleConfig>
+<restore>
+<sar_cell_restore value="1"/>
+</restore>
+<configs>
+<config>
+<is_wifi_ap_opened value="1"/>
+<is_sar_cell_reduce value="7"/>
+</config>
+<!--0# Recv off + wifi off dsi=1  body sar-->
+<config>
+<is_data_connected value="1"/>
+<is_wifi_connected value="0"/>
+<is_wifi_ap_opened value="0"/>
+<is_sar_cell_reduce value="1"/>
+<is_receiver_phoneon value="0"/>
+</config>
+<!--1# Recv on + wifi off dsi=2  head sar -->
+<config>
+<is_wifi_connected value="0"/>
+<is_wifi_ap_opened value="0"/>
+<is_sar_cell_reduce value="2"/>
+<is_receiver_phoneon value="1"/>
+</config>
+<!--2# Recv off + wifi on dsi=3  body sar-->
+<config>
+<is_wifi_connected value="1"/>
+<is_wifi_ap_opened value="0"/>
+<is_sar_cell_reduce value="3"/>
+<is_receiver_phoneon value="0"/>
+</config>
+<!--3# Recv on + wifi on dsi=4  head sar -->
+<config>
+<is_wifi_connected value="1"/>
+<is_wifi_ap_opened value="0"/>
+<is_sar_cell_reduce value="4"/>
+<is_receiver_phoneon value="1"/>
+</config>
+<!--4# Recv off + wifi off + testcard dsi=1  body sar-->
+<config>
+<is_wifi_connected value="0"/>
+<is_wifi_ap_opened value="0"/>
+<is_sar_cell_reduce value="1"/>
+<is_receiver_phoneon value="0"/>
+<is_sim_mcc value="1"/>
+</config>
+</configs>
+</SarRuleConfig>

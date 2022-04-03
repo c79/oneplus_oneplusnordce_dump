@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+
+
+    <library name="interfaces.customNvService-shallow"
+             file="/system/framework/interfaces.customNvService-V1.0-java-shallow.jar"/>
+    <library name="interfaces.factoryInterface-shallow"
+             file="/system/framework/interfaces.factoryInterface-V1.0-java-shallow.jar"/>
+    <library name="interfaces.factoryAta-shallow"
+             file="/system/framework/interfaces.factoryAta-V1.0-java-shallow.jar"/>
+
+    <library name="interfaces.customNvService"
+             file="/system/framework/interfaces.customNvService-V1.0-java.jar"
+             dependency="interfaces.customNvService-shallow"
+    />
+    <library name="interfaces.factoryInterface"
+             file="/system/framework/interfaces.factoryInterface-V1.0-java.jar"
+             dependency="interfaces.factoryInterface-shallow"
+    />
+    <library name="interfaces.factoryAta"
+             file="/system/framework/interfaces.factoryAta-V1.0-java.jar"
+             dependency="interfaces.factoryAta-shallow"
+    />
+
+    <library name="com.factory.factoryInterface"
+             file="/system/framework/factoryInterface.jar"
+             dependency="interfaces.factoryInterface:interfaces.factoryAta:interfaces.customNvService:com.qualcomm.qcrilhook"
+    />
+</permissions>
