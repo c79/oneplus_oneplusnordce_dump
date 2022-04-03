@@ -1,0 +1,212 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo",
+      "support": true,
+      "action": "com.mmigroup.action.FACTORYVERSION",
+      "paramconfig": {
+        "support_camera_match": false,
+        "AddInfo": {
+          "CameraInfo": "any",
+          "verifiedbootstate": "green",
+          "System_Verity": "true"
+        }
+      }
+    },
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "Backlight"
+    },
+    {
+      "showName": "LCD"
+    },
+    {
+      "showName": "TouchPanel"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "DualSIMCard"
+    },
+    {
+      "showName": "MainSIMCard",
+      "support": false
+    },
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "WideCamera"
+    },
+    {
+      "showName": "MacroCamera"
+    },
+    {
+      "showName": "DepthCamera"
+    },
+    {
+      "showName": "BackDualCamera"
+    },
+    {
+      "showName": "FrontCamera"
+    },
+    {
+      "showName": "MainCamera_light_leakage"
+    },
+    {
+      "showName": "Flashlight"
+    },
+    {
+      "showName": "SMARTPA"
+    },
+    {
+      "showName": "LeftSpeaker"
+    },
+    {
+      "showName": "RightSpeaker"
+    },
+    {
+      "showName": "Receiver"
+    },
+    {
+      "showName": "FM"
+    },
+    {
+      "showName": "HeadSet",
+      "paramconfig": {
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "paramconfig": {
+        "needHeadsetUnPlug": true
+      }
+    },
+    {
+      "showName": "MainMicToHeadPhone"
+    },
+    {
+      "showName": "MainMicToReceiver"
+    },
+    {
+      "showName": "MainMicToSpeaker"
+    },
+    {
+      "showName": "SubMicToSpeaker"
+    },
+    {
+      "showName": "RTC"
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "Vibrator",
+      "paramconfig": {
+        "is_auto_vibrate": false
+      }
+    },
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_axialresult": true,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "is_auto_calibrate": false,
+        "support_plus_or_minus_45_degrees_either_pass_through": false,
+        "autoTest": {
+          "support_calibrate": false
+        }
+      }
+    },
+    {
+      "showName": "Gyroscope",
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_test": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Optical"
+    },
+    {
+      "showName": "Proximity_C"
+    },
+    {
+      "showName": "Proximity"
+    },
+    {
+      "showName": "Magnetic",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_draw": false,
+        "support_test": true,
+        "self_calibrate": false
+      }
+    },
+    {
+      "showName": "fingerprint",
+      "action": "com.mmigroup.action.ThreeAppTest",
+      "support": true,
+      "automatic": true,
+      "paramconfig": {
+        "return_adb_broadcast_result": true,
+        "pkg":"com.fingerprints.fingerprintsensortest",
+        "cls":"com.fingerprints.fingerprintsensortest.FTSensorTestToolActivity",
+        "req_code":"961",
+        "testitem_name": "fingerprint_test",
+        "result_passcode": "1",
+        "extra_info": {
+          "model_test": "true"
+        },
+        "sec_step_test": {
+            "pkg":"com.fingerprints.fingerprintsensortest",
+            "cls":"com.fingerprints.fingerprintsensortest.FTFingerPrintQualityTest",
+            "req_code":"962",
+            "extra_info": {
+                "model_test": "true"
+            }
+        },
+        "auto_exit":false
+      }
+    },
+    {
+      "showName": "Battery",
+      "paramconfig": {
+        "support_afc_charge": false
+      }
+    },
+    {
+      "showName": "OTG"
+    },
+    {
+      "showName": "NFC"
+    },
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "AirInterfaceTest"
+    },
+    {
+      "showName": "Sar1"
+    },
+    {
+      "showName": "Sar2"
+    }
+  ]
+}

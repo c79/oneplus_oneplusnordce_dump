@@ -1,0 +1,33 @@
+{
+  "itemConfig": [
+    {
+      "showName": "lcd_leak_test"
+    },
+    {
+      "showName": "fingerprint",
+      "action": "com.mmigroup.action.ThreeAppTest",
+      "support": true,
+      "automatic": true,
+      "paramconfig": {
+        "return_adb_broadcast_result": false,
+        "pkg":"com.fingerprints.fingerprintsensortest",
+        "cls":"com.fingerprints.fingerprintsensortest.FTSensorTestToolActivity",
+        "req_code":"961",
+        "testitem_name": "fingerprint_test",
+        "result_passcode": "1",
+        "extra_info": {
+          "model_test": "true"
+        },
+        "sec_step_test": {
+            "pkg":"com.fingerprints.fingerprintsensortest",
+            "cls":"com.fingerprints.fingerprintsensortest.FTFingerPrintQualityTest",
+            "req_code":"962",
+            "extra_info": {
+                "model_test": "true"
+            }
+        },
+        "auto_exit":false
+      }
+    }
+  ]
+}

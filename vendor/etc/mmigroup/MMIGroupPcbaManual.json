@@ -1,0 +1,174 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "Backlight"
+    },
+    {
+      "showName": "LCD",
+      "support": true,
+      "action": "com.mmigroup.action.LCD",
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "Color_R",
+          "Color_G",
+          "Color_B",
+          "Color_W",
+          "Color_BL",
+          "Color_GR",
+          "grey_scale",
+          "chr_dia",
+          "fruit"
+        ]
+      }
+    },
+    {
+      "showName": "TouchPanel"
+    },
+    {
+      "showName": "DualSIMCard"
+    },
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "DepthCamera"
+    },
+    {
+      "showName": "FrontCamera"
+    },
+    {
+      "showName": "WideCamera"
+    },
+    {
+      "showName": "Flashlight"
+    },
+    {
+      "showName": "Speaker"
+    },
+    {
+      "showName": "Receiver"
+    },
+    {
+      "showName": "FM"
+    },
+    {
+      "showName": "HeadSet"
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "paramconfig": {
+        "needHeadsetUnPlug": true
+      }
+    },
+    {
+      "showName": "MainMicToHeadPhone"
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "Vibrator",
+      "paramconfig": {
+        "is_auto_vibrate": false
+      }
+    },
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_axialresult": true,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "is_auto_calibrate": false,
+        "support_plus_or_minus_45_degrees_either_pass_through": false,
+        "autoTest": {
+          "support_calibrate": false
+        }
+      }
+    },
+    {
+      "showName": "Optical",
+      "paramconfig": {
+        "optical_sensor_type":33171030
+      }
+    },
+    {
+      "showName": "Proximity"
+    },
+    {
+      "showName": "Magnetic",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_draw": false,
+        "support_test": true,
+        "self_calibrate": false
+      }
+    },
+    {
+      "showName": "Gyroscope",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_test": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Battery",
+      "paramconfig": {
+        "support_afc_charge": false,
+        "support_fast_charge": false,
+        "Voltage": {
+          "min": 2500,
+          "max": 4500
+        },
+        "temp": {
+          "min": 20,
+          "max": 800
+        },
+        "ChargerVoltage": {
+          "min": 0,
+          "max": 0
+        },
+        "ChargerCurrent": {
+          "min": -10500,
+          "max": 1500
+        }
+      }
+    },
+    {
+      "showName": "OTG"
+    },
+    {
+      "showName": "fingerprint",
+      "action": "com.mmigroup.action.ThreeAppTest",
+      "support": true,
+      "automatic": true,
+      "paramconfig": {
+        "pkg": "com.fingerprints.fingerprintsensortest",
+        "cls": "com.fingerprints.fingerprintsensortest.FTSensorTestToolActivity",
+        "req_code":"961",
+        "testitem_name": "fingerprint_test",
+        "result_passcode": "1",
+        "extra_info": {
+          "model_test": "true"
+        },
+        "auto_exit": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Accelerometer",
+	  "support": false,
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_axialresult": true,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "is_auto_calibrate": true
+      }
+    },
+    {
+      "showName": "Accelerometer_C",
+	  "support": false,
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_axialresult": true,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "is_auto_calibrate": true
+      }
+    },
+    {
+      "showName": "Optical",
+      "support": true,
+      "action": "com.mmigroup.action.OPTICAL",
+      "automatic": true,
+      "paramconfig": {
+        "lux_std": 0,
+        "lux_pet": 0,
+        "is_check_range": false,
+        "value_change_in": 0,
+		"coef": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "requestComm": [
+        "Optical"
+      ]
+    },
+    {
+      "showName": "Optical_c"
+    },
+    {
+      "showName": "Optical_leak_c",
+      "action": "com.mmigroup.action.ThreeAppTest",
+      "support": true,
+      "automatic": true,
+      "paramconfig": {
+        "return_adb_broadcast_result": true,
+        "pkg":"com.oneplus.factorymode",
+        "cls":"com.sensor.sensorcalibrate.LightSensorCalibration",
+        "req_code":"944",
+        "testitem_name": "Optical_leak_c",
+        "result_passcode": "1",
+        "extra_info": {
+          "CALIBRATION_MODE": "CALIBRATION_MODE_LEAK",
+          "model_test": "true"
+        },
+        "auto_exit":false
+      }
+    },
+    {
+      "showName": "Proximity"
+    },
+    {
+      "showName": "Proximity_st",
+      "automatic": true
+    },
+    {
+      "showName": "Proximity_C"
+    },
+    {
+      "showName": "Gyroscope_C",
+      "support": false,
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_test": true,
+        "is_auto_calibrate": true
+      }
+    },
+    {
+      "showName": "Magnetic",
+      "support": false
+    },
+    {
+      "showName": "Hall"
+    },
+    {
+      "showName": "Hall2"
+    },
+    {
+      "showName": "Pressure"
+    },
+    {
+      "showName": "Pressure_C"
+    }
+  ]
+}
