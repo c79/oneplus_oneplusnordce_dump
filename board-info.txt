@@ -1,0 +1,4 @@
+require version-baseband=2.0.1.c6.9-00033-BITRA_GEN_PACK-1.415696.5
+require version-modem=2022-01-1300:15:59
+require version-trustzone=TZ.XF.5.10.C5-00002-1
+require version-vendor=1642002194

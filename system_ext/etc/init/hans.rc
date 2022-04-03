@@ -1,0 +1,11 @@
+service hans /system_ext/bin/hans
+    class core
+    user system
+    group system
+    disabled
+
+on property:sys.hans.enable=true
+    start hans
+
+on property:sys.hans.enable=false
+    stop hans

@@ -1,0 +1,78 @@
+{
+  "header" : {
+    "required_libavb_version_major" : 1,
+    "required_libavb_version_minor" : 0,
+    "authentication_data_block_size" : 0,
+    "auxiliary_data_block_size" : 640,
+    "algorithm_type" : 0,
+    "hash_offset" : 0,
+    "hash_size" : 0,
+    "signature_offset" : 0,
+    "signature_size" : 0,
+    "public_key_offset" : 608,
+    "public_key_size" : 0,
+    "public_key_metadata_offset" : 608,
+    "public_key_metadata_size" : 0,
+    "descriptors_offset" : 0,
+    "descriptors_size" : 608,
+    "rollback_index" : 0,
+    "flags" : 0,
+    "release_string" : "avbtool 1.1.0"
+  },
+  "authBlob" : null,
+  "auxBlob" : {
+    "pubkey" : null,
+    "pubkeyMeta" : null,
+    "propertyDescriptors" : [ {
+      "tag" : 0,
+      "num_bytes_following" : 144,
+      "sequence" : 2,
+      "key" : "com.android.build.boot.fingerprint",
+      "value" : "OnePlus/OnePlusNordCE_EEA/OnePlusNordCE:11/RKQ1.201217.002/2201122337:user/release-keys"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 56,
+      "sequence" : 3,
+      "key" : "com.android.build.boot.os_version",
+      "value" : "11"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 72,
+      "sequence" : 4,
+      "key" : "com.android.build.boot.security_patch",
+      "value" : "2022-01-01"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 72,
+      "sequence" : 5,
+      "key" : "com.android.build.boot.security_patch",
+      "value" : "2022-01-01"
+    } ],
+    "hashTreeDescriptors" : [ ],
+    "hashDescriptors" : [ {
+      "tag" : 2,
+      "num_bytes_following" : 184,
+      "sequence" : 1,
+      "flags" : 0,
+      "partition_name" : "boot",
+      "hash_algorithm" : "sha256",
+      "image_size" : 43278336,
+      "salt" : "dyyYRH9cdMg7Ud/2FSvHaMz8lQLUkON12+aAdBdYlVM=",
+      "digest" : "dTwoW+qt2LWSQEOUBYc1neL///U7XPAolb1Z59FQGJQ=",
+      "partition_name_len" : 4,
+      "salt_len" : 32,
+      "digest_len" : 32,
+      "flagsInterpretation" : "0:A/B system"
+    } ],
+    "kernelCmdlineDescriptors" : [ ],
+    "chainPartitionDescriptors" : [ ],
+    "unknownDescriptors" : [ ]
+  },
+  "footer" : {
+    "versionMajor" : 1,
+    "versionMinor" : 0,
+    "originalImageSize" : 43278336,
+    "vbMetaOffset" : 43278336,
+    "vbMetaSize" : 896
+  }
+}

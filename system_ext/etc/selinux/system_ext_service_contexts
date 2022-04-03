@@ -1,0 +1,167 @@
+#line 1 "vendor/oneplus/sepolicy/system_ext/private/service_contexts"
+# patrick.huang@SYSTEM, 2019/04/09, [AN-90] add for refactoring OEMExService to OnePlusExService
+OnePlusExService                    u:object_r:OnePlusExService_type:s0
+
+# ken.shen@SYSTEM, 2019/05/22. Add for param service refactor
+ParamService                    u:object_r:oem_service:s0
+
+# kenshen@SYSTEM, 2019/06/10, add for OnePlus WindowManager service
+oneplus_windowmanagerservice    u:object_r:oem_service:s0
+
+# matt.yu@SYSTEM, 2019/09/16, [OSP-2815] Add for heytap business
+heytapbusiness                          u:object_r:oneplus_heytap_business_service_type:s0
+
+# alan.kao@CONNECTIVITY, 2019/04/24, add for OpWifi refactor
+oneplus_wifi_service            u:object_r:oneplus_wifi_service_type:s0
+
+# brandon.zeng@CONNECTIVITY, 2019/06/10, add for refactoring OnePlusNfcService
+oneplus_nfc_service               u:object_r:oem_nfc:s0
+
+# huangyu@SYSTEM, 2019/05/16, [AN-1127]add for screen mode manager service
+opscreenmode            u:object_r:opscreenmode_type:s0
+
+# oscar.wei@SYSTEM, 2020/03/30, [AN-604] add for opdiagnose system
+opdiagnose    u:object_r:opdiagnose_service:s0
+
+# matt.yu@SYSTEM, 2019/07/05, [OSP-2211] Add for open id
+openid                          u:object_r:oneplus_openid_service_type:s0
+
+# cyrus.liu@SYSTEM, 2020/10/23, [AN-1380] Porting ColorOS openid algorithm
+openidnew                          u:object_r:oneplus_openid_service_type:s0
+
+# joseph.huang@SYSTEM, 2019/06/18, add for core service app.
+oimc_service            u:object_r:oneplus_coreapp_service:s0
+
+# walter.he@SYSTEM, 2019/07/15, add for OSP-1772
+game_vibrate_service            u:object_r:oneplus_coreapp_service:s0
+
+# kai.wen@OOS, 2020/11/28, Add for api adapter service that allows app access system api without systemuid
+api_adapter_service             u:object_r:oneplus_coreapp_service:s0
+
+#henry.coa@system add for secrecy and engineer
+secrecy                         u:object_r:oem_service:s0
+engineer                        u:object_r:oem_service:s0
+
+# roger.li@MULTIMEDIA, 2019/05/15, add for ColorDisplayService refactor
+oneplus_colordisplay_service    u:object_r:oneplus_colordisplay_service_type:s0
+
+# jinhom.chen@SYSTEM, 2019/06/13, [AN-598] Add for refactoring of permission control
+oneplus_permission_control_service              u:object_r:oneplus_permissioncontrol_service_type:s0
+
+# sean.liu@OPTIMIZATION, 2020/07/03, [OPTI-45] add for op freezer binder opt
+op.hans.IHansComunication                              u:object_r:hans_service:s0
+
+# jay.fan@SYSTEM, 2019/04/09, add for OpPowerControllerService
+powercontrol                    u:object_r:oem_service:s0
+
+# patrick.huang@SYSTEM, 2019/03/20, add for refactoring opservive
+opservice                    u:object_r:opservice_type:s0
+
+# rudra.harish@APP,  2019/06/13, add longhot service
+oneplus_longshot_manager_service          u:object_r:op_longshot_service_type:s0
+
+# kishore.nandigam@SYSTEM, 2020/04/15, [AN-1064] add assert.tip for red screen assertion
+assert.tip                      u:object_r:oem_log_service:s0
+
+# simon.miao@MULTIMEDIA, 2019/10/21, add for IrisService
+op_iris_service                 u:object_r:op_iris_service_type:s0
+
+# simon.miao@MultiMedia, 2020/09/29, add for ALM-11810
+oplus_vrr_service              u:object_r:oplus_vrr_service_type:s0
+
+# jeff.chenhy@SYSTEM, 2019/06/19, [AN-717] add for scene call blocking
+opscenecallblock        u:object_r:opscenecallblock_type:s0
+
+# gt.chang@CONNECTIVITY, 2020/04/01, add for OpBluetooth refactor
+oneplus_bluetooth_service            u:object_r:oneplus_bluetooth_service_type:s0
+
+# alden.zhang@OPTI, 2020/5/26, add for Houston porting
+houston_server                  u:object_r:houston_service:s0
+
+#jay.fan@OPTI, 2020/07/29, add for hypnusd
+hypnusd                               u:object_r:hypnusd_service:s0
+horae                                 u:object_r:horae_service:s0
+hypnus                                u:object_r:hypnus_service:s0
+
+# jeff.chenhy@OOSSYSTEM, 2020/09/21, [OSP-8405] add for zoom window
+oneplus_zoom_window          u:object_r:oneplus_zoom_window_type:s0
+
+# zhoujiabo@framework, 2018/11/01, [OSP-1150] Add for motor control
+motor                           u:object_r:oem_service:s0
+nfc_settings u:object_r:nfc_service:s0
+nfc.st_ext u:object_r:nfc_service:s0
+#line 1 "device/qcom/sepolicy/generic/private/service_contexts"
+# Copyright (c) 2018, The Linux Foundation. All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#     * Redistributions of source code must retain the above copyright
+#       notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above
+#       copyright notice, this list of conditions and the following
+#       disclaimer in the documentation and/or other materials provided
+#       with the distribution.
+#     * Neither the name of The Linux Foundation nor the names of its
+#       contributors may be used to endorse or promote products derived
+#       from this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+# WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+# ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+# BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+# BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+# WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+# OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+# IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+cneservice                                           u:object_r:vendor_cne_service:s0
+com.qualcomm.qti.ustaservice.USTAServiceImpl         u:object_r:vendor_usta_app_service:s0
+#line 1 "device/qcom/sepolicy/qva/private/service_contexts"
+# Copyright (c) 2018-2019, The Linux Foundation. All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#     * Redistributions of source code must retain the above copyright
+#       notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above
+#       copyright notice, this list of conditions and the following
+#       disclaimer in the documentation and/or other materials provided
+#       with the distribution.
+#     * Neither the name of The Linux Foundation nor the names of its
+#       contributors may be used to endorse or promote products derived
+#       from this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED"AS IS" AND ANY EXPRESS OR IMPLIED
+# WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+# ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+# BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+# BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+# WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+# OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+# IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+dpmservice                                     u:object_r:vendor_dpmservice:s0
+MinkBinderSvc                                  u:object_r:vendor_MinkBinderSvc:s0
+vendor.perfservice                             u:object_r:vendor_perf_service:s0
+vendor.qdtservice                              u:object_r:vendor_qdt_service:s0
+sms-sec                                        u:object_r:radio_service:s0
+extphone                                       u:object_r:radio_service:s0
+qti.radio.extphone                             u:object_r:radio_service:s0
+com.qualcomm.location.izat.IzatService         u:object_r:vendor_izat_service:s0
+qti.security.seempspa                          u:object_r:vendor_seemp_service:s0
+vendor.audio.vrservice                         u:object_r:audioserver_service:s0
+com.qti.snapdragon.sdk.display.IColorService   u:object_r:vendor_color_service:s0
+wfdservice                                     u:object_r:vendor_wfdservice_service:s0
+wigigp2p                                       u:object_r:vendor_wigigp2p_service:s0
+wigig                                          u:object_r:vendor_wigig_service:s0
+display.smomoservice                           u:object_r:surfaceflinger_service:s0
+vendor.vpsservice                              u:object_r:vendor_vps_service:s0
+vendor.qspmsvc                                 u:object_r:vendor_qspmsvc_service:s0
+

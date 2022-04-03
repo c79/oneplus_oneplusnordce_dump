@@ -1,0 +1,24 @@
+{
+    "Image_Build_IDs": {
+        "adsp": "ADSP.VT.5.6-00592-BITRA-1", 
+        "aop": "AOP.HO.2.0-00062-BITRAAAAAANAZO-1", 
+        "apps": "LA.UM.9.12.r1-08900-SMxx50.0", 
+        "boot": "BOOT.XF.3.3-00287-BITRALAZ-5", 
+        "btfm": "BTFM.CHE.2.1.5-00257-QCACHROMZ-1", 
+        "cdsp": "CDSP.VT.2.6-00491.2-BITRA-1", 
+        "common": "Bitra.LA.2.0.c1-00008-STD.PROD-1.415696.4", 
+        "glue": "GLUE.BITRA.LA.1.0-00138-NOOP_TEST-1", 
+        "modem": "MPSS.HI.2.0.1.c6.9-00033-BITRA_GEN_PACK-1.415696.5", 
+        "npu": "NPU.FW.2.3-00048-BITRA_NPU_PACK-1", 
+        "tz": "TZ.XF.5.10.c5-00002-BITRAAAAAANAZT-1*", 
+        "tz_apps": "TZ.APPS.2.0.c6-00004-BITRAAAAAANAZT-2", 
+        "video": "VIDEO.VPU.1.2-00035-PROD-1*", 
+        "wlan": "WLAN.HL.3.3.1.c13-00018-QCAHLSWMTPLZ-1.403705.1"
+    }, 
+    "Metabuild_Info": {
+        "Meta_Build_ID": "Bitra.LA.2.0.c1-00008-STD.PROD-1.415696.4", 
+        "Product_Flavor": "asic", 
+        "Time_Stamp": "2022-01-13 00:15:59"
+    }, 
+    "Version": "1.0"
+}

@@ -1,0 +1,50 @@
+
+#ifdef VENDOR_EDIT
+#Danny.Xiao@System, 2019/12/17, [AN-918] add for property-trigger mechanism
+#To copy the QXDM-mask to the specific path before QXDM enabling.
+on property:opdiagnose.qxdm.mask=modem_general
+    mkdir /sdcard/oem_log
+    mkdir /sdcard/oem_log/diag_logs
+    copy /system_ext/etc/mask/NEW_ALL.cfg /sdcard/oem_log/diag_logs/Diag.cfg
+on property:opdiagnose.qxdm.mask=modem_voice
+    mkdir /sdcard/oem_log
+    mkdir /sdcard/oem_log/diag_logs
+    copy /system_ext/etc/mask/GSM_WCDMA_NAS_DS.cfg /sdcard/oem_log/diag_logs/Diag.cfg
+on property:opdiagnose.qxdm.mask=modem_sim
+    mkdir /sdcard/oem_log
+    mkdir /sdcard/oem_log/diag_logs
+    copy /system_ext/etc/mask/DIAG_UIM.cfg /sdcard/oem_log/diag_logs/Diag.cfg
+on property:opdiagnose.qxdm.mask=modem_data
+    mkdir /sdcard/oem_log
+    mkdir /sdcard/oem_log/diag_logs
+    copy /system_ext/etc/mask/data_service.cfg /sdcard/oem_log/diag_logs/Diag.cfg
+on property:opdiagnose.qxdm.mask=wifi
+    mkdir /sdcard/oem_log
+    mkdir /sdcard/oem_log/diag_logs
+    copy /system_ext/etc/mask/wifi.cfg /sdcard/oem_log/diag_logs/Diag.cfg
+on property:opdiagnose.qxdm.mask=audio
+    mkdir /sdcard/oem_log
+    mkdir /sdcard/oem_log/diag_logs
+    copy /system_ext/etc/mask/audio.cfg /sdcard/oem_log/diag_logs/Diag.cfg
+on property:opdiagnose.qxdm.mask=bt
+    mkdir /sdcard/oem_log
+    mkdir /sdcard/oem_log/diag_logs
+    copy /system_ext/etc/mask/bt.cfg /sdcard/oem_log/diag_logs/Diag.cfg
+on property:opdiagnose.qxdm.mask=sensor
+    mkdir /sdcard/oem_log
+    mkdir /sdcard/oem_log/diag_logs
+    copy /system_ext/etc/mask/sensor.cfg /sdcard/oem_log/diag_logs/Diag.cfg
+on property:opdiagnose.qxdm.mask=gps
+    mkdir /sdcard/oem_log
+    mkdir /sdcard/oem_log/diag_logs
+    copy /system_ext/etc/mask/gps.cfg /sdcard/oem_log/diag_logs/Diag.cfg
+on property:opdiagnose.qxdm.mask=modem_antenna
+    mkdir /sdcard/oem_log
+    mkdir /sdcard/oem_log/diag_logs
+    copy /system_ext/etc/mask/antenna.cfg /sdcard/oem_log/diag_logs/Diag.cfg
+on property:opdiagnose.qxdm.mask=modem_power
+    mkdir /sdcard/oem_log
+    mkdir /sdcard/oem_log/diag_logs
+    copy /system_ext/etc/mask/power.cfg /sdcard/oem_log/diag_logs/Diag.cfg
+# VENDOR_EDIT
+

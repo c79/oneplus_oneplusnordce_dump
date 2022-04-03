@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<!--
+/* Copyright (C), 2014-2019, OnePlus Mobile Comm Corp., Ltd
+**
+** This file is for customizing app info, such as app label, app icon,
+** or even removing launcher category for an activity or activity alias.
+** Just put the customization info into corresponding locale.
+**
+** [EXAMPLE 1]: customizing app label
+**   <app-info-customization package="name of target package">
+**       <label name="a string resource name in oneplus-framework-res.apk(com.oneplus)" />
+**   </app-info-customization>
+**
+** [EXAMPLE 2]: customizing app icon
+**   <app-info-customization package="name of target package">
+**       <icon name="a drawable resource name in oneplus-framework-res.apk(com.oneplus)" />
+**   </app-info-customization>
+**
+** [EXAMPLE 3]: removing launcher category for activity or activity alias
+**   <app-info-customization package="name of target package">
+**       <remove-launcher-category activity="name of target activity" remove-from-activity="true|false" />
+**   </app-info-customization>
+**   Note that the value of attribute activity should be like "package.activity".
+**   And when attribute value of remove-from-activity is set to true, it indicates that
+**   operation of removing launcher category will be handled in the process of
+**   parsing activity info in AndroidManifest.xml. Otherwise, parsing activity alias.
+**   Default value is true.
+**
+** You can combine those cases into a single section of app-info-customization. For example:
+**   <app-info-customization package="name of target package">
+**       <label name="a string resource name in oneplus-framework-res.apk(com.oneplus)" />
+**       <icon name="a drawable resource name in oneplus-framework-res.apk(com.oneplus)" />
+**       <remove-launcher-category activity="name of target activity" remove-from-activity="true|false" />
+**   </app-info-customization>
+*/
+-->
+<oneplus-config>
+    <!-- config for china builds -->
+    <locale name="china">
+        <!-- customizing label and icon for market app -->
+        <app-info-customization package="com.oppo.market">
+            <label name="zzz_op_market_appname" />
+            <icon name="zzz_op_market_icon" />
+        </app-info-customization>
+
+        <app-info-customization package="com.heytap.market">
+            <label name="zzz_op_market_appname" />
+            <icon name="zzz_op_market_icon" />
+        </app-info-customization>
+
+        <!-- customizing label and icon for browser app -->
+        <app-info-customization package="com.heytap.browser">
+            <label name="zzz_op_browser_appname" />
+            <icon name="zzz_op_browser_icon" />
+        </app-info-customization>
+
+        <app-info-customization package="com.nearme.browser">
+            <label name="zzz_op_browser_appname" />
+            <icon name="zzz_op_browser_icon" />
+        </app-info-customization>
+
+        <!-- customizing icon for game center app -->
+        <app-info-customization package="com.nearme.gamecenter">
+            <icon name="zzz_op_game_center_icon" />
+        </app-info-customization>
+
+        <!-- customizing icon for coloros wallet app -->
+        <app-info-customization package="com.coloros.wallet">
+            <icon name="zzz_op_oneplus_wallet_icon" />
+        </app-info-customization>
+
+        <app-info-customization package="com.finshell.wallet">
+            <icon name="zzz_op_oneplus_wallet_icon" />
+        </app-info-customization>
+
+        <!-- customization for removing launcher category for com.android.stk -->
+        <app-info-customization package="com.android.stk">
+            <remove-launcher-category activity="com.android.stk.StkMain" remove-from-activity="true" />
+        </app-info-customization>
+
+        <!-- customization for removing launcher category for com.android.documentsui -->
+        <app-info-customization package="com.google.android.documentsui">
+            <remove-launcher-category activity="com.android.documentsui.LauncherActivity" remove-from-activity="false" />
+        </app-info-customization>
+    </locale>
+
+    <!-- config for india builds -->
+    <locale name="india">
+        <!-- customizing icon for game center app -->
+        <app-info-customization package="com.nearme.gamecenter">
+            <label name="zzz_op_game_center_appname_india" />
+            <icon name="zzz_op_game_center_icon_india" />
+            <remove-launcher-category activity="com.nearme.gamecenter.ui.activity.SplashActivity" remove-from-activity="true" />
+        </app-info-customization>
+    </locale>
+</oneplus-config>

@@ -1,0 +1,17 @@
+{"name":"avb","statMode":16877,"ino":300000,"note":"DIR  40755"}
+{"name":"avb/q-gsi.avbpubkey","statMode":33188,"ino":300001,"note":"REG 100644"}
+{"name":"avb/r-gsi.avbpubkey","statMode":33188,"ino":300002,"note":"REG 100644"}
+{"name":"avb/s-gsi.avbpubkey","statMode":33188,"ino":300003,"note":"REG 100644"}
+{"name":"debug_ramdisk","statMode":16877,"ino":300004,"note":"DIR  40755"}
+{"name":"dev","statMode":16877,"ino":300005,"note":"DIR  40755"}
+{"name":"fstab.default","statMode":33184,"ino":300006,"note":"REG 100640"}
+{"name":"fstab.emmc","statMode":33184,"ino":300007,"note":"REG 100640"}
+{"name":"init","statMode":33256,"ino":300008,"note":"REG 100750"}
+{"name":"mnt","statMode":16877,"ino":300009,"note":"DIR  40755"}
+{"name":"op_plat_sepolicy.cil","statMode":33188,"ino":300010,"note":"REG 100644"}
+{"name":"proc","statMode":16877,"ino":300011,"note":"DIR  40755"}
+{"name":"sys","statMode":16877,"ino":300012,"note":"DIR  40755"}
+{"name":"system","statMode":16877,"ino":300013,"note":"DIR  40755"}
+{"name":"system/bin","statMode":16873,"ino":300014,"note":"DIR  40751"}
+{"name":"system/bin/e2fsck","statMode":33261,"ino":300015,"note":"REG 100755"}
+{"name":"TRAILER!!!","statMode":493,"ino":0,"note":""}

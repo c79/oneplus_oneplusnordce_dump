@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!-- *#808# -->
+    <!--
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.EngineerModeMain" />
+    -->
+    <!-- *#36446337# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.EngineeringMode" />
+    <!-- *#8778# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MasterClear" />
+    <!-- *#806# -->
+    <!--
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.AutoAgingMainListActivity" />
+    -->
+    <!-- *##*37847# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.DeviceListActivity" />
+    <!-- *#*#7668#*#* -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.CheckRootStatusActivity" />
+    <!-- *#807# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.AutoTest" />
+    <!-- *#805# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.bluetoothtest.BluetoothTest" />
+    <!-- *#804# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.NetworkSearch" />
+    <!-- *#803# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiSettings" />
+    <!-- *#802# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gps.GpsActivity" />
+    <!-- *#99# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.KeepSrceenOn" />
+    <!-- *#6776# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.CheckSoftwareInfo" />
+    <!-- *#888# -->
+    <!--
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.PcbShow" />
+    -->
+    <!-- *#809# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.echotest.EchoTest" />
+    <!-- *##*8110# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.OtaSwitch" />
+    <!-- *#801# -->
+    <!--
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.DiagEnabled" />
+    -->
+    <!-- *#008# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.LanguageSwitchToChineseActivity" />
+    <!-- *#67760044# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.LanguageSwitchToEnglishActivity" />
+    <!-- *#268# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.QualCommActivity" />
+    <!-- *#900# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.BackCameraAdjusting" />
+    <!-- *#911# -->
+    <!--<activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.PowerOff" />-->
+    <!-- *#10000# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.MarkResultShow" />
+    <!-- *#814# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.TDSNetworkSearch" />
+    <!-- *#824# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.WCDMANetworkSearch" />
+    <!-- *#834# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.LTENetworkSearch" />
+    <!-- *#818# *#838# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.NetworkSearch_New" />
+    <!-- *#928# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiFTMActivity" />
+    <!-- *#8019# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiSocketHelper" />
+    <!-- *#7332# -->
+    <activity packageName="com.oem.rftoolkit"  className="com.oem.rftoolkit.RfToolkitFactory" />
+    <!-- *#7328# -->
+    <activity packageName="com.oem.rftoolkit"  className="com.oem.rftoolkit.RfToolkitAgingTest" />
+    <!-- *#7327# -->
+    <activity packageName="com.oem.rftoolkit"  className="com.oem.rftoolkit.RfToolkitCustomerService" />
+    <!-- fingerprint calibration -->
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FUNFingerPrintCalibrationTest" />
+    <!-- *#806# result page -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.pt.PtActivity" />
+    <!-- fingerprint calibration result -->
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintCalibrationResult" />
+    <!-- *#899# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.aftersale.ChooseBackCoverColor" />
+    <!-- *#845# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiApSettings" />
+    <!-- *#*#866#*#* -->
+    <activity packageName="com.oneplus.engmode"  className="com.oneplus.engmode.OpEngModeActivityList" />
+    <!-- *#8020# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiAdbHelper" />
+    <!-- fingerprint calibration -->
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintCalibrationTest" />
+    <!-- front camera motor and hall calibration -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorHallAfterSaleCalibration" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorHallCalibrateActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorHallForceMove" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorHallSelfTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorStepHallCalibration" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorStepTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorTestActivity" />
+    <!-- fingerprint test -->
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.SensorTestToolActivity" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FingerPrintQualityTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTSensorTestToolActivity" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintQualityTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintPerformanceTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintExposureTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintCaptureAgingTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintAgingTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.qcom.FingerPrintSelfTestt" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.qcom.FingerPrintSnrTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.qcom.FingerPrintPsfTest" />
+
+    <!-- Proximity sensor Test -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.sensor.FakeProximitySensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.sensor.FakeProximityCalibration" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.sensor.TpProximitySensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelUltrasonicProximitySensorTest" />
+
+    <!-- other factory mode test -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.AutoTestMusicPlay" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.audio.Audio" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.audio.Audio_ModeSetting" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.audio.Audio_ParamSetting" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.audio.Audio_DualMic" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.VideoPlayActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.BackCameraTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.DualLedCalibrationFirstTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.DualLedCalibrationSecondTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.FrontCameraTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.SecondBackCameraTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.ThirdBackCameraTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.FlashLampTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.FlashLampTest2" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.ManualTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.BatteryInfoShow" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.ProtectionTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.bluetoothtest.BluetoothVersionActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.bluetoothtest.BluetoothTestModeActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.LCDtest.LCDColorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiAutoTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiInfo" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiSniffer" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.AdvancedSettings" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifimtk.WiFi" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifimtk.WiFi_Tx" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifimtk.WiFi_Rx" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifimtk.WiFi_EEPROM" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifimtk.WiFi_TemperatureSensor" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifimtk.FileList" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifimtk.WiFi_MCR" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.wifiautoconnect.WifiAutoConnectActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.network.NetWorkSet" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.network.GsmInfo" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.network.NetWorkInfo" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.network.FiveGNetWorkInfo" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.network.BandMode" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.network.BandMode2" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.KeypadTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.PhysicalkeypadTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.LCDtest.LCDContrast" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.LCDtest.LCDChooseEffectActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.TurnOnOffBackLight" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.HeadsetTestTypeC" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.HeadsetTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.BackgroundLight" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.SDCardTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.SdCardTest2" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.WriteLogTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MicTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.bluetoothtest.BluetoothSearch" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.AutoAgingMainListActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.AutoAgingActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.AutoAgingSettingsActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.plus.AutoAgingActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.plus.AutoAgingSettingsActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.DRamTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.CpuTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.CallTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.KeylightTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.BacklightTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.LCDTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.VideoTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.VibrateTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.MicTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.BackCameraTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.SecondBackCameraTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.ThirdBackCameraTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.FrontCameraTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.MhlTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.GSensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.ProximitySensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.BluetoothTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.GpsTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.WifiTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.ProximityTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.GyroscopeTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.LightSensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.FlashlightTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.FingerPrintIconAgingActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.GSensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.GSensorTestList" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.sensortest.manualtest.LightSensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.ProximitySensor" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.ProximitySensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.ProximitySensor2" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MSensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MSensorAutoTest2" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MrSensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.audiotest.ReceiverTest" />
+    <!-- *#888# -->
+    <!--
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.PcbShow" />
+    -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.ShowEncryptImeiActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.AllClear" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.SimLockTestActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.SimLockCategoryDataActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.CallTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.GSMNetworkSearch" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.PassUnpassActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.AutoTestVibrate" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.AutotestRcdShow" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.CpuBasicFrequency" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gprsact.GPRS_MTK" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gprsact.PDPSelectMainActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gps.GpsViewRecords" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gps.GpsSearchDialog" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.touchscreen.TouchScreen" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.touchscreen.AutoTouchScreenTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.touchscreen.TouchScreen_Calibration" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.touchscreen.TouchScreen_HandWriting" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.touchscreen.TouchScreen_Verification" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.touchscreen.TouchScreen_VerificationPoint" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.touchscreen.TouchScreen_VerificationLine" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.touchscreen.TouchScreen_VerificationShaking" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.touchscreen.TouchScreen_MultiTouch" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.AutoFillSmsContacts" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.CalibrateStatus" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.QualCommNv" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.QualCommNv2" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.QualCommNvShow" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.DiagEnabled" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.ClearTelcelnetlock" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.RecoverTelcelnetlock" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.ModemTelcelnetlock" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.InitTelcelNV" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.LogSwitchExt" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.DeviceLog" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.InstallSpecialApk" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.HideSpecialApk" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gyroscopetest.GyroscopeActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gyroscopetest.GyroscopeGraph" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gyroscopetest.GyroscopeGraphSpeaker" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gyroscopetest.GyroscopeGraphReceiver" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.HallTriadeGraphActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.TriStateHallCalibration" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gyroscopetest.GyroscopeSelfTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gyroscopetest.GyroDispalyData" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gyroscopetest.GyroscopeCalibrateTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.mhl.MHLActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.touchscreen.UpgradeActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.touchscreen.UpgradeTipActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.VibrateTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MediaTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.VideoTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.ContactorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.ChargingSettings" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.CommonCommands" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.OppoConnectionADBActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.InfraredGestureSensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.InfraredGestureManualTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.InfraredGestureAgingTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.HuxiLightTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.HolzerTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.SimCardTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.NfcTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.sensorcalibrate.SensorSelfTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.sensorcalibrate.RGBSensorSelfTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.sensorcalibrate.LightSensorOffsetTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.sensorcalibrate.FactorySensorForeendTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.sensorcalibrate.RGBSensorIRRateWriteTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MultiMicTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.EarphoneLoopTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.OtgTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest1" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest2" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest3" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest4" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest5" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest6" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest7" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest8" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest9" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest10" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest11" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest12" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest13" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest14" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest15" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest16" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest17" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest18" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest19" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest20" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest21" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest22" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest23" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest24" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest25" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.ModelWifiConnectTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelBTSearch" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelVibratorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.LightSensorAndBackLight" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelEchoTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelLcdColorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.sensorcalibrate.ModelSensorCalibration" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelGsensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelMSensorAutoTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.GyroscopeGraph" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.sensorcalibrate.ModelProximityFunTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTouchScreeen" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTestResultReport" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gps.GpsEnvVideoTestActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gps.GpsEnvTestActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gps.GpsEnvCameraActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.RebootManager" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.MosConfigFactory" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oem.remotecontrols.RemoteControlsActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oem.remotecontrols.DeviceScanActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.ProtocolTestSwitcher" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.CfuActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.DeviceMgr" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.AutoAnswer" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.LTEDivAntTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.ScreenComponentTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.ScreenComponentSettingsActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.ScreenUnitSettingsActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.RotationComponentTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.RotationMotor" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.HallTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.HallAdjust" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.HallSwitch" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.HallCalibrate" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.HallRecording" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.FingerPrintTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.FingerPrintAutoTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.FingerPrintQualityTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.AntennaSwitchTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.SwitchSetupWizardActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.LanguageSwitchActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.DeleteNoNeedFilesActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.GripSensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.GripSensorCalibrateTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.GripSensorManualTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.LaserTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.LaserFocusCalibrateTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.LaserFocusBasicTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.LaserFocusTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.CameraOisTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.CameraOisStillTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.CameraOpticalImageStabilizer" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.CameraOpticalImageStabilizerTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.CameraResultPage" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.CameraResultPage2" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.CheckPdafInfo" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.HeatPipeTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.CoverTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.EarlyFabricationTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.touchscreen.AutoTouchScreenTestWithButton" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.ImpedanceTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelImpedanceTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.PowerOff" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.DetectMasterClearResult" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.SwitchSoftwareVersion" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.TriKeySwitchTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.QcomFastChargerTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelKeyboardBackLight" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelNfcTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTestBatteryCover" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTestTopCoverModule1" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTestTopCoverModule2" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelSmallBoardCheck" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelPanelCheck" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.SmartAntennaSwitchTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.TouchKeyTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.StepCounterTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.SensorOffsetView" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.PhoneConnectTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.ChargeModeSwitch" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.RPMB" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.KeyBoxStatusTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.ModeTestKeyCheck" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.HeadsetDetectTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelHeadsetPlayTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.HeadsetKeyTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.HeadsetPlayTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.EarlyFabricationKeyTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.ScreenComponentKeyTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.DownloadStatus" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.FoolproofCameraTestExp" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.supltool.SUPLToolTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.DeviceDisconnectMonitor" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.LinearMotorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.SpecialMotorAgingTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MotorAgingTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MotorRingPlayTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MotorProductionTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MotorEffectTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.RGBSensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.sensorcalibrate.SarSensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.sensorcalibrate.SecondSarSensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.sensorcalibrate.FullSarSensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.DoubleFlashLight" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.cameratest.CameraCalibrationTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.cameratest.CameraAgingActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.CameraTestController" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.DDRAgingTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.EngineerModeMain" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.StanCurTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.cameratest.PortraitTestActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.cameratest.Portrait2TestActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiRoamActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.multimedia.LcdInfoActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.multimedia.LcdLowLightTestActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.BackCoverColorTestActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorAgingTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.sensorcalibrate.LightSensorCalibration" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.sensortest.manualtest.LightSensorTestList" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.sensor.UltrasonicProximitySensorSpeakerTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.sensor.UltrasonicProximitySensorReceiverTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.multimedia.HeadsetTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.aftersale.AfterSalePage" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.PreprocessingTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.SwitchWifiAdbHelper" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.CheckCtsFingerPrint" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.LCMFrequencySwitchTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.plus.LCMFrequencySwitchAgingTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.audio.SmartPaQuery" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.DPTestActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.USBDetectActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.touchscreen.TPCalibrationActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.TPProximityCalibrationAndTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorHallCalibrateHistory" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MotorClockCalibrationTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MotorRamTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorAgingActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.LCDAgingTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.productionlineaging.ProductionLineAgingActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.productionlineaging.ProductionLineAgingSetting" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.productionlineaging.LcdFullAgingActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.productionlineaging.VideoFullAgingActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.productionlineaging.CameraFullAgingActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.productionlineaging.GPUFullAgingActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.productionlineaging.IdleFullAgingActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.productionlineaging.PrepareVideoActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.productionlineaging.ShowAgingReportActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.FTFingerPrintCaptureAgingTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiRfTestActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.WCDeviceIdActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.CplcIdActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest26" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest27" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.modeltest.ModelTest29" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.FlickerSensorTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.pixelwork.PixelWorkTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.LCDtest.LcdLightLeakTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.DdrFreqActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.wirelesscharge.WirelessChargingInfoActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.wirelesscharge.WirelessReverseChargingInfoActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.WirelessChargeAgingTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.ScreenInfoCheck" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.PixelAgingTest" />
+    <!--Barometer-->
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.barometer.manualtest.BarometerCalibration" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.barometer.manualtest.BarometerTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.sensor.barometer.manualtest.BarometerTestList" />
+</filter-conf>
+

@@ -1,0 +1,5 @@
+libsnpe_dsp_domains_system.so
+libsnpe_dsp_domains_v2_system.so
+libsnpe_dsp_domains_v3_system.so
+libsnpe_htp_system.so
+

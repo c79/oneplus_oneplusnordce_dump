@@ -1,0 +1,38 @@
+{
+  "info" : {
+    "output" : "boot.img",
+    "json" : "boot.json",
+    "headerVersion" : 2,
+    "headerSize" : 1660,
+    "loadBase" : 0,
+    "tagsOffset" : 256,
+    "board" : "",
+    "pageSize" : 4096,
+    "cmdline" : "androidboot.hardware=qcom androidboot.console=ttyMSM0 androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 androidboot.usbcontroller=a600000.dwc3 swiotlb=2048 cgroup.memory=nokmem,nosocket loop.max_part=7 buildvariant=user",
+    "osVersion" : "11.0.0",
+    "osPatchLevel" : "2022-01-00",
+    "hash" : "MhwbdtOXJ6lnZh090owzY5s5po4AAAAAAAAAAAAAAAA=",
+    "verify" : "VB2.0 PASS",
+    "imageSize" : 100663296
+  },
+  "kernel" : {
+    "file" : "build/unzip_boot/kernel",
+    "position" : 4096,
+    "size" : 39952400,
+    "loadOffset" : 32768
+  },
+  "ramdisk" : {
+    "file" : "build/unzip_boot/ramdisk.img.gz",
+    "position" : 39960576,
+    "size" : 1310544,
+    "loadOffset" : 16777216
+  },
+  "secondBootloader" : null,
+  "recoveryDtbo" : null,
+  "dtb" : {
+    "file" : "build/unzip_boot/dtb",
+    "position" : 41271296,
+    "size" : 2006964,
+    "loadOffset" : 32505856
+  }
+}
